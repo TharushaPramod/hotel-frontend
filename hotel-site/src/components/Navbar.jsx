@@ -4,22 +4,22 @@ const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const navItems = [
-    { name: 'Home', href: '#home' },
-    { name: 'About', href: '#about' },
-    { name: 'Rooms', href: '#rooms' },
-    { name: 'Facilities', href: '#facilities' },
-    { name: 'Gallery', href: '#gallery' },
-    { name: 'Contact', href: '#contact' }
+   { name: 'Home', href: '/' },
+  { name: 'About', href: '/about' },
+  { name: 'Rooms', href: '/rooms' },
+  { name: 'Facilities', href: '/facilities' },
+  { name: 'Gallery', href: '/gallery' },
+  { name: 'Contact', href: '/contact' },
   ];
 
   return (
-    <nav className="fixed top-0 z-50 w-full bg-white shadow-md">
+    <nav className="z-50 w-full mt-[10px] mb-10 bg-white shadow-md">
       <div className="max-w-6xl px-4 mx-auto">
         <div className="flex items-center justify-between py-4">
           
           {/* Logo */}
           <div className="text-2xl font-bold text-blue-600">
-            Hotel Luxury
+            HotelOpal
           </div>
 
           {/* Desktop Menu */}

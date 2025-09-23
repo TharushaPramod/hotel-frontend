@@ -1,14 +1,16 @@
 import React from 'react';
 import Navbar from '../components/Navbar';
+import Gallery1 from '../images/Gallery/gallery1.jpg';
+import Gallery2 from '../images/Gallery/gallery2.jpg';
 
 function Gallery() {
   const images = [
     {
-      src: 'https://images.unsplash.com/photo-1560448204-e02f11c3d0e2',
+      src: Gallery1,
       alt: 'Cozy hotel lounge with modern decor',
     },
     {
-      src: 'https://images.unsplash.com/photo-1611892440504-42a792e24d32',
+      src: Gallery2,
       alt: 'Luxurious hotel bedroom with city view',
     },
     {
@@ -38,10 +40,10 @@ function Gallery() {
   ];
 
   return (
-    <div>
-      
-      <div className="flex flex-col min-h-screen w-[90%] mx-auto" >
-        <h2 className="mb-4 text-3xl font-bold text-center">Our Gallery</h2>
+    <div className='bg-gray-50'>
+      <Navbar/>
+      <div className="container flex flex-col min-h-screen mx-auto " >
+        <h2 className="mb-4 text-3xl font-semibold text-center opacity-75">Our Gallery</h2>
         <p className="max-w-2xl mx-auto mb-8 text-lg text-center text-gray-600">
           Discover the elegance and comfort of our hotel through these vibrant images. From cozy rooms to stunning views, explore what makes our space truly special.
         </p>

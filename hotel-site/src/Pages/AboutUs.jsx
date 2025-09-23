@@ -1,10 +1,11 @@
 import React from 'react'
 import aboutimage from '../images/aboutimage.jpg'
+import Navbar from '../components/Navbar';
 
 function AboutUs() {
   return (
     <div className="min-h-screen bg-gray-50">
-      
+      <Navbar/>
       <div className="container px-4 py-12 mx-auto">
         <div className="flex flex-col items-center gap-8 md:flex-row">
           {/* Image Section */}
@@ -12,14 +13,14 @@ function AboutUs() {
             <img
               src={aboutimage}
               alt="Serenity Hotel Exterior"
-              className="w-full h-auto rounded-lg shadow-lg "
+              className="w-full h-auto rounded-lg shadow-xl "
             />
           </div>
           {/* Text Content */}
           <div className="md:w-1/2">
             <h2 className="mb-4 text-3xl font-semibold text-center text-gray-800 md:text-start">Our Story</h2>
             <p className="mb-3 text-gray-600">
-              Established in 1995, Serenity Hotel is a haven of comfort and elegance in the heart of the city. Our mission is to provide guests with a restful retreat, combining modern amenities with a warm, welcoming atmosphere. From cozy rooms to exceptional dining, every aspect of our hotel is designed to create lasting memories.
+              Established in 1995, Opal Hotel is a haven of comfort and elegance in the heart of the city. Our mission is to provide guests with a restful retreat, combining modern amenities with a warm, welcoming atmosphere. From cozy rooms to exceptional dining, every aspect of our hotel is designed to create lasting memories.
             </p>
             <p className="mb-6 text-gray-600">
               Our dedicated team strives to deliver outstanding service, ensuring every guest feels at home. Whether you are traveling for business or leisure, Serenity Hotel offers a seamless blend of luxury and tranquility.

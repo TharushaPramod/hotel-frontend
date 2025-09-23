@@ -1,4 +1,5 @@
 import React from 'react';
+import Navbar from '../components/Navbar';
 
 
 function Facilities() {
@@ -43,10 +44,10 @@ function Facilities() {
 
   return (
     <div>
-      
-      <div className="flex flex-col min-h-screen">
-        <h2 className="mb-4 text-3xl font-bold text-center">Our Facilities</h2>
-        <p className="max-w-2xl mx-auto mb-8 text-lg text-center text-gray-600">
+      <Navbar/>
+      <div className="container flex flex-col min-h-screen mx-auto">
+        <h2 className="mb-4 text-3xl font-semibold text-center">Our Facilities</h2>
+        <p className="max-w-2xl mx-auto mb-8 text-lg text-center text-gray-600 ">
           Experience comfort and convenience with our exceptional amenities, designed to make your stay unforgettable.
         </p>
         <div className="grid grid-cols-1 gap-4 px-4 md:grid-cols-3">
