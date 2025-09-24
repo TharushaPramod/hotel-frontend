@@ -13,46 +13,10 @@ It is fully responsive and includes basic interactivity along with a WhatsApp-ba
 - Facilities/Services including pool, spa, gym, Wi-Fi, parking, etc.
 - Gallery with high-quality images.
 - Contact & Booking page with phone, email, address, map, and WhatsApp booking
-hotel-website/
-├── src/
-│   ├── assets/
-│   │   └── Images/          # Image assets
-│   ├── components/          # Reusable components
-│   │   ├── Header.jsx      # Navigation header
-│   │   ├── HeroBanner.jsx  # Hero section
-│   │   ├── FacilityCard.jsx
-│   │   ├── RoomCategory.jsx
-│   │   └── ServiceCard.jsx
-│   ├── css/                # Styling files
-│   │   ├── App.css
-│   │   ├── Header.css
-│   │   ├── HeroBanner.css
-│   │   └── ...
-│   ├── pages/              # Page components
-│   │   ├── Home.jsx       # Home page
-│   │   ├── About.jsx      # About page
-│   │   ├── Rooms.jsx      # Rooms page
-│   │   ├── Facilities.jsx # Facilities page
-│   │   ├── Gallery.jsx    # Gallery page
-│   │   └── Contact.jsx    # Contact/Booking page
-│   ├── App.jsx            # Main app component
-│   └── main.jsx           # Entry point
-├── public/                 # Public assets
-├── index.html             # HTML template
-├── package.json           # Dependencies and scripts
-└── vite.config.js         # Vite configuration
+
 ---
 
 ## 📂 Project Structure
-hotel-website/
-│── public/
-│── src/
-│ ├── components/
-│ ├── pages/
-│ ├── App.js
-│ └── index.js
-│── package.json
-│── README.md
 
 
 ---
