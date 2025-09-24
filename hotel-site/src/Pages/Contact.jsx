@@ -29,11 +29,11 @@ function Contact() {
   
      const phoneNumber = '+94703238582'; // Hotel's WhatsApp number
     const whatsappMessage = `Hello OPAL Hotel,\nI would like to make a booking:
-                Name: ${name}
-                Room Type: ${roomType}
-                Check-in: ${checkIn || 'N/A'}
-                Check-out: ${checkOut || 'N/A'}
-                Message: ${message || 'N/A'}`;
+          Name: ${name}
+          Room Type: ${roomType}
+          Check-in: ${checkIn || 'N/A'}
+          Check-out: ${checkOut || 'N/A'}
+          Message: ${message || 'N/A'}`;
 
     const encodedMessage = encodeURIComponent(whatsappMessage);
     const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodedMessage}`;
