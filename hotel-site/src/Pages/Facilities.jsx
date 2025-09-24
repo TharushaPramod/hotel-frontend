@@ -1,5 +1,12 @@
 import React from 'react';
 import Navbar from '../components/Navbar';
+import pool from '../images/pool.jpg'
+import spa from '../images/spa.jpg'
+import gym from '../images/gym.jpg'
+import rest from '../images/rest.jpg'
+import wifi from '../images/wifi.jpg'
+import park from '../images/park.jpg'
+
 
 
 function Facilities() {
@@ -7,37 +14,37 @@ function Facilities() {
     {
       title: 'Swimming Pool',
       description: 'Relax in our sparkling outdoor pool, perfect for a refreshing dip or lounging under the sun.',
-      image: 'https://images.unsplash.com/photo-1576675764574-870ed801f7f7',
+      image: pool,
       alt: 'Outdoor swimming pool with scenic surroundings',
     },
     {
       title: 'Spa',
       description: 'Unwind with a soothing massage or rejuvenating treatment in our tranquil spa.',
-      image: 'https://images.unsplash.com/photo-1596436889106-be35e843f974',
+      image: spa,
       alt: 'Calm spa room with ambient lighting',
     },
     {
       title: 'Gym',
       description: 'Stay active in our modern fitness center, equipped with state-of-the-art machines.',
-      image: 'https://images.unsplash.com/photo-1534438327276-14e5300c3a48',
+      image: gym,
       alt: 'Modern gym with exercise equipment',
     },
     {
       title: 'Restaurant',
       description: 'Savor delicious meals crafted by our chefs, from local flavors to international cuisine.',
-      image: 'https://images.unsplash.com/photo-1578683014728-903d11dcdc91',
+      image: rest,
       alt: 'Elegant hotel restaurant dining area',
     },
     {
       title: 'Wi-Fi',
       description: 'Stay connected with high-speed Wi-Fi available throughout the hotel.',
-      image: 'https://images.unsplash.com/photo-1516321318423-3b56ce18f053',
+      image: wifi,
       alt: 'Person using laptop with Wi-Fi',
     },
     {
       title: 'Parking',
       description: 'Enjoy hassle-free parking with our secure and convenient on-site facilities.',
-      image: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c',
+      image: park,
       alt: 'Secure hotel parking area',
     },
   ];
@@ -45,7 +52,7 @@ function Facilities() {
   return (
     <div>
      
-      <div className="container flex flex-col min-h-screen mx-auto">
+      <div className="container flex flex-col min-h-screen mx-auto mt-10 mb-24">
         <h2 className="mb-4 text-3xl font-semibold text-center">Our Facilities</h2>
         <p className="max-w-2xl mx-auto mb-8 text-lg text-center text-gray-600 ">
           Experience comfort and convenience with our exceptional amenities, designed to make your stay unforgettable.

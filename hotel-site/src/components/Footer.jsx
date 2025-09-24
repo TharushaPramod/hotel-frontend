@@ -18,7 +18,7 @@ const Footer = () => {
 
   return (
     <footer className="py-8 text-gray-300 bg-gray-800">
-      <div className="grid grid-cols-1 gap-6 px-4 mx-auto max-w-[80%] md:grid-cols-4   ">
+      <div className="grid grid-cols-4 gap-6 px-4 mx-auto max-w-[80%] md:grid-cols-4   ">
         <div className='flex flex-col items-center '>
           <h3 className="mb-3 text-lg font-semibold text-white">OPAL Hotel</h3>
           <p className="text-sm text-gray-400">Luxury and comfort since 1995.</p>

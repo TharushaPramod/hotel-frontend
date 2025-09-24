@@ -1,5 +1,7 @@
-import React, { useState } from 'react';
-import { useLocation, useNavigate } from 'react-router-dom';
+import React, { useState } from "react";
+import { useLocation, useNavigate } from "react-router-dom";
+import { Menu, Close } from "@mui/icons-material";
+import { IconButton } from "@mui/material";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -9,12 +11,12 @@ const Navbar = () => {
   const isActive = (path) => location.pathname === path;
 
   const navItems = [
-    { name: 'Home', href: '/' },
-    { name: 'About', href: '/about' },
-    { name: 'Rooms', href: '/rooms' },
-    { name: 'Facilities', href: '/facilities' },
-    { name: 'Gallery', href: '/gallery' },
-    { name: 'Contact', href: '/contact' },
+    { name: "Home", href: "/" },
+    { name: "About", href: "/about" },
+    { name: "Rooms", href: "/rooms" },
+    { name: "Facilities", href: "/facilities" },
+    { name: "Gallery", href: "/gallery" },
+    { name: "Contact", href: "/contact" },
   ];
 
   const toggleMenu = () => {
@@ -26,20 +28,19 @@ const Navbar = () => {
       <div className="px-4 mx-auto max-w-[90%] sm:px-6 lg:px-8">
         <div className="flex items-center justify-between py-4">
           {/* Logo */}
-          <div className="text-2xl font-bold text-blue-600">
+          <div
+            className="text-2xl font-bold text-blue-600 cursor-pointer"
+            onClick={() => navigate("/")}
+          >
             HotelOpal
           </div>
 
-          {/* Hamburger Menu Button for Mobile */}
-        <div className="md:hidden">
-  <button
-    onClick={toggleMenu}
-    className="text-gray-700"
-    aria-label="Toggle menu"
-  >
-    <span className="text-2xl">{isMenuOpen ? '×' : '☰'}</span>
-  </button>
-</div>
+          {/* Hamburger Menu Button (Mobile) */}
+          <div className="md:hidden">
+            <IconButton onClick={toggleMenu} aria-label="Toggle menu">
+              {isMenuOpen ? <Close fontSize="medium" /> : <Menu fontSize="medium" />}
+            </IconButton>
+          </div>
 
           {/* Desktop Menu */}
           <div className="hidden md:flex md:items-center md:space-x-8">
@@ -47,10 +48,10 @@ const Navbar = () => {
               <a
                 key={item.name}
                 onClick={() => navigate(item.href)}
-                className={`text-lg font-medium transition-transform duration-200 ${
+                className={`cursor-pointer text-lg font-medium transition-transform duration-200 ${
                   isActive(item.href)
-                    ? 'text-blue-600 scale-105'
-                    : 'text-gray-700 hover:text-blue-600'
+                    ? "text-blue-600 scale-105"
+                    : "text-gray-700 hover:text-blue-600"
                 }`}
               >
                 {item.name}
@@ -77,10 +78,10 @@ const Navbar = () => {
                     navigate(item.href);
                     setIsMenuOpen(false);
                   }}
-                  className={`text-lg font-medium ${
+                  className={`cursor-pointer text-lg font-medium ${
                     isActive(item.href)
-                      ? 'text-blue-600'
-                      : 'text-gray-700 hover:text-blue-600'
+                      ? "text-blue-600"
+                      : "text-gray-700 hover:text-blue-600"
                   }`}
                 >
                   {item.name}

@@ -160,7 +160,7 @@ function Contact() {
           <div className=" md:w-1/2">
            <div className="">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.019020324364!2d-122.41941568468157!3d37.77492927975975!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085808c5e9a3c7b%3A0x9b3b7e8c2d3a4c5d!2sSan%20Francisco%2C%20CA%2C%20USA!5e0!3m2!1sen!2sus!4v1697051234567!5m2!1sen!2sus"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63401.41587989915!2d79.92812669999999!3d6.697779199999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae2480ddb4d56a9%3A0x6066c0dd6a6de9b0!2sWadduwa%20Railway%20Station!5e0!3m2!1sen!2slk!4v1758693269966!5m2!1sen!2slk"
                 width="100%"
                 height="250"
                 style={{ border: 0 }}

@@ -10,7 +10,7 @@ function RoomDetails() {
   return (
     <div>
     
-      <div className="min-h-screen mx-auto mt-10">
+      <div className="min-h-screen mx-auto mt-10 mb-15">
         {/* Page Title */}
         <h2 className="mb-8 text-3xl font-bold text-center">
           {room.category} Details

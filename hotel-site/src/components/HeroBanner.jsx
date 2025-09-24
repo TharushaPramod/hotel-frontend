@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 // Array of image imports (replace with your actual image paths)
 import CoverImage1 from '../images/hotelcover.jpg';
-import CoverImage2 from '../images/hotel1.jpg';
+import CoverImage2 from '../images/hotel3.jpg';
 import CoverImage3 from '../images/hotel2.jpg';
 
 const images = [CoverImage1, CoverImage2, CoverImage3];
@@ -62,7 +62,7 @@ function HeroBanner() {
           <button
             key={index}
             onClick={() => setCurrentImageIndex(index)}
-            className={`w-3 h-3 rounded-full ${
+            className={`w-5 h-2 rounded-full ${
               index === currentImageIndex ? 'bg-white' : 'bg-gray-400'
             }`}
             aria-label={`Go to slide ${index + 1}`}
