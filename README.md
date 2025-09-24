@@ -18,6 +18,7 @@ It is fully responsive and includes basic interactivity along with a WhatsApp-ba
 
 ## 📂 Project Structure
 
+<img width="486" height="797" alt="image" src="https://github.com/user-attachments/assets/b5eba0f3-a583-4f0c-8df5-edd797a49164" />
 
 ---
 
