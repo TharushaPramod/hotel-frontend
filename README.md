@@ -1,37 +1,37 @@
-# 🏨 Hotel Opal(Hotel Website) - Internship Assignment
+🏨 Hotel Opal - Hotel Website
+This project is a fully responsive hotel website developed using React.js as part of an internship assignment. It features a modern interface with basic interactivity and a WhatsApp-based booking system.
+📌 Features
 
-This project is a **Hotel Website** developed using **React.js** as part of my internship assignment.  
-It is fully responsive and includes basic interactivity along with a WhatsApp-based booking feature.
+Home Page: Displays a hero banner with the hotel name, tagline, and a captivating background image.
+About Us: Provides a concise description of the hotel’s mission and values.
+Rooms & Suites: Showcases room options with images, descriptions, and sample pricing.
+Facilities/Services: Highlights amenities such as pool, spa, gym, Wi-Fi, and parking.
+Gallery: Features a collection of high-quality images of the hotel.
+Contact & Booking: Includes phone, email, address, an embedded map, and a WhatsApp booking integration.
 
----
+📂 Project Structure
 
-## 📌 Features
+▶️ Run Locally
+Follow these steps to run the project on your local machine:
 
-- Home page with hero banner (hotel name, tagline, background image)
-- About Us section with a short description
-- Rooms & Suites with images, descriptions, and sample pricing
-- Facilities/Services including pool, spa, gym, Wi-Fi, parking, etc.
-- Gallery with high-quality images.
-- Contact & Booking page with phone, email, address, map, and WhatsApp booking
-
----
-
-## 📂 Project Structure
-
-<img width="706" height="798" alt="image" src="https://github.com/user-attachments/assets/f398bc42-5ca8-4873-acd6-a7351daafa73" />
+Clone the Repository  
+git clone https://github.com/TharushaPramod/hotel-frontend.git
 
 
----
+Navigate to the Project Directory  
+cd hotel-frontend
 
-## ▶️ Run Locally
 
-1. Clone the repo
-   ```bash
-   git clone https://github.com/TharushaPramod/hotel-frontend.git
-
-cd hotel-website
-
+Install Dependencies  
 npm install
 
+
+Start the Development Server  
 npm start
 
+The application will run at http://localhost:3000 by default.
+
+
+🛠️ Technologies Used
+
+React.js: Frontend framework for building the user interface.
