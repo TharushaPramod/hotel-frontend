@@ -17,6 +17,8 @@ function Homepage() {
           Established in 1995, OPAL Hotel offers a serene escape in the heart of the city. Our mission is to provide guests with unparalleled comfort and elegance, blending modern amenities with a warm, inviting atmosphere. From cozy rooms to exceptional dining experiences, every detail is crafted to create unforgettable memories.
         </p>
       </div>
+
+      
       <div className="py-10 pb-32 bg-white">
         <div className="grid max-w-4xl grid-cols-1 gap-8 px-4 mx-auto md:grid-cols-3">
           <div className="text-center">
@@ -24,15 +26,21 @@ function Homepage() {
             <h3 className="text-4xl font-bold text-gray-800">1000+</h3>
             <p className="text-gray-600">Visitors Monthly</p>
           </div>
+
+
           <div className="text-center">
             <HotelIcon className="mx-auto mb-4 text-4xl text-blue-600" />
             <h3 className="text-4xl font-bold text-gray-800">250</h3>
             <p className="text-gray-600">Rooms Available</p>
           </div>
+
+          
           <div className="text-center">
             <RoomServiceIcon className="mx-auto mb-4 text-4xl text-blue-600" />
             <h3 className="text-4xl font-bold text-gray-800">75</h3>
             <p className="text-gray-600">Staff Members</p>
+
+            
           </div>
         </div>
       </div>

@@ -11,18 +11,18 @@ function RoomDetails() {
     <div>
     
       <div className="min-h-screen mx-auto mt-10 mb-15">
-        {/* Page Title */}
+       
         <h2 className="mb-8 text-3xl font-bold text-center">
           {room.category} Details
         </h2>
 
-        {/* Main Room Info */}
+      
         <div className="mb-12 text-center bg-gray-100 ">
          <p className="p-4 text-lg text-gray-600 md:p-8 md:px-40 lg:px-60">{room.idescription}</p>
           
         </div>
 
-        {/* SubTypes Grid */}
+   
         <h3 className="mb-6 text-2xl font-bold text-center text-blue-800">Room Types</h3>
         <div className="grid grid-cols-1 gap-6 md:grid-cols-3 w-[90%] mx-auto">
           {room.subTypes.map((subType, index) => (
@@ -44,7 +44,7 @@ function RoomDetails() {
           ))}
         </div>
 
-        {/* Back Button */}
+        
         <div className="mt-10 mb-10 text-center">
           <Link
             to="/rooms"

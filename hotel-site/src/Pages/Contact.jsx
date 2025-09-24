@@ -27,7 +27,7 @@ function Contact() {
     }
 
   
-     const phoneNumber = '+94703238582'; // Hotel's WhatsApp number
+     const phoneNumber = '+94703238582'; 
     const whatsappMessage = `Hello OPAL Hotel,\nI would like to make a booking:
           Name: ${name}
           Room Type: ${roomType}
@@ -36,7 +36,7 @@ function Contact() {
           Message: ${message || 'N/A'}`;
 
     const encodedMessage = encodeURIComponent(whatsappMessage);
-    const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodedMessage}`;
+    const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodedMessage}`; 
     window.open(whatsappUrl, '_blank');
     
     setFormData({
@@ -63,7 +63,7 @@ function Contact() {
         <div className="w-[90%] mx-auto">
            <div className="flex flex-col items-center gap-40 md:flex-row w-[90%] mx-auto">
 
-             {/* Contact Form */}
+        {/* Contact Form */}
         <div className=" md:w-1/2">
             <h3 className="mb-4 text-xl font-semibold text-center">Make a Booking</h3>
             <form onSubmit={handleSubmit} className="space-y-4">
@@ -156,7 +156,9 @@ function Contact() {
               </button>
             </form>
           </div>
-          {/* Contact Information */}
+
+          
+         
           <div className=" md:w-1/2">
            <div className="">
               <iframe
