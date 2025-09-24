@@ -19,41 +19,42 @@ It is fully responsive and includes basic interactivity along with a WhatsApp-ba
 ## 📂 Project Structure
 
 hotel-frontend/
-├── public/ # Public assets (favicon, manifest, etc.)
+hotel-frontend/
+├── public/                    # Public assets (favicon, manifest, etc.)
 ├── src/
-│ ├── assets/
-│ │ └── images/ # Image assets (rooms, facilities, gallery, etc.)
-│ │
-│ ├── components/ # Reusable components
-│ │ ├── Footer.jsx
-│ │ ├── HeroBanner.jsx
-│ │ ├── Navbar.jsx
-│ │ ├── Room.jsx
-│ │ └── RoomCard.jsx
-│ │
-│ ├── Pages/ # Page components
-│ │ ├── AboutUs.jsx
-│ │ ├── Contact.jsx
-│ │ ├── Facilities.jsx
-│ │ ├── Gallery.jsx
-│ │ ├── Homepage.jsx
-│ │ ├── RoomDetails.jsx
-│ │ └── Rooms.jsx
-│ │
-│ ├── App.jsx # Main app component
-│ ├── App.css # Global styles
-│ ├── index.css # Base styling
-│ └── main.jsx # Entry point (ReactDOM render)
+│   ├── assets/
+│   │   └── images/            # Image assets (rooms, facilities, gallery, etc.)
+│   │
+│   ├── components/            # Reusable components
+│   │   ├── Footer.jsx
+│   │   ├── HeroBanner.jsx
+│   │   ├── Navbar.jsx
+│   │   ├── Room.jsx
+│   │   └── RoomCard.jsx
+│   │
+│   ├── Pages/                # Page components
+│   │   ├── AboutUs.jsx
+│   │   ├── Contact.jsx
+│   │   ├── Facilities.jsx
+│   │   ├── Gallery.jsx
+│   │   ├── Homepage.jsx
+│   │   ├── RoomDetails.jsx
+│   │   └── Rooms.jsx
+│   │
+│   ├── App.jsx               # Main app component
+│   ├── App.css               # Global styles
+│   ├── index.css             # Base styling
+│   └── main.jsx              # Entry point (ReactDOM render)
 │
-├── index.html # HTML template
-├── package.json # Dependencies and project scripts
-├── vite.config.js # Vite configuration
-├── tailwind.config.js # Tailwind CSS config
-├── postcss.config.js # PostCSS config
-├── eslint.config.js # Linting rules
-├── .gitignore # Git ignore rules
-├── .gitattributes # Git attributes
-└── README.md # Documentation
+├── index.html                # HTML template
+├── package.json              # Dependencies and project scripts
+├── vite.config.js            # Vite configuration
+├── tailwind.config.js        # Tailwind CSS config
+├── postcss.config.js         # PostCSS config
+├── eslint.config.js          # Linting rules
+├── .gitignore                # Git ignore rules
+├── .gitattributes            # Git attributes
+└── README.md                 # Documentation
 
 
 ---
