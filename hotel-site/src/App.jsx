@@ -7,12 +7,15 @@ import Gallery from './Pages/Gallery';
 import Facilities from './Pages/Facilities';
 import Contact from './Pages/Contact';
 import RoomDetails from './Pages/RoomDetails';
+import Navbar from './components/Navbar';
+import Footer from './components/Footer';
 
 
 function App() {
 
   return (
   <div>
+    <Navbar/>
     <Routes>
        <Route path='/' element={<Homepage/>}></Route>
       <Route path='/about' element={<AboutUs/>}></Route>
@@ -22,6 +25,7 @@ function App() {
             <Route path='/contact' element={<Contact/>}></Route>
 <Route path="/rooms/:category" element={<RoomDetails />} />
     </Routes>
+    <Footer/>
   </div>
   );
 }

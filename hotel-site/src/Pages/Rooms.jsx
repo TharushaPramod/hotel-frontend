@@ -9,8 +9,8 @@ function Rooms() {
     
   return (
     <div>
-      <Navbar/>
-      <div className="min-h-screen mt-20 w-[90%] mx-auto">
+      
+      <div className="min-h-screen mt-10 w-[90%] mx-auto">
         <div>
              <h2 className="mb-8 text-3xl font-semibold text-center">Our Rooms</h2>
         </div>

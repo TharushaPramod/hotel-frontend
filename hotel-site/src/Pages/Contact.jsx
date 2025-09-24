@@ -51,47 +51,21 @@ function Contact() {
 
   return (
     <div>
-      <Navbar />
       
-      <div className="min-h-screen mt-24 w-[90%] mx-auto">
-        <h2 className="mb-4 text-3xl font-bold text-center">Contact Us</h2>
-        <p className="max-w-2xl mx-auto mb-8 text-lg text-center text-gray-600">
+      
+      <div className="min-h-screen mt-10 w-[100%] mx-auto">
+        <h2 className="text-3xl font-semibold text-center mb-7">Contact Us</h2>
+        <div className='bg-gray-100'>
+        <p className="max-w-4xl p-8 mx-auto mb-8 text-lg text-center text-gray-600 md:p-8">
           Get in touch with us to book your stay or for any inquiries. We are here to ensure your experience is exceptional.
         </p>
-        <div className="max-w-2xl mx-auto">
-          {/* Contact Information */}
-          <div className="mb-8">
-            <h3 className="mb-4 text-xl font-bold text-center">Our Contact Details</h3>
-            <div className="space-y-3 text-center text-gray-600">
-              <p>
-                <span className="font-semibold">Phone:</span> +94 70 323 8582
-              </p>
-              <p>
-                <span className="font-semibold">Email:</span>{' '}
-                <a href="mailto:info@hotel.com" className="text-blue-600 hover:underline">
-                  info@hotel.com
-                </a>
-              </p>
-              <p>
-                <span className="font-semibold">Address:</span> 123 Serenity Lane, Downtown, City, Country
-              </p>
-            </div>
-            <div className="mt-6">
-              <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.019020324364!2d-122.41941568468157!3d37.77492927975975!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085808c5e9a3c7b%3A0x9b3b7e8c2d3a4c5d!2sSan%20Francisco%2C%20CA%2C%20USA!5e0!3m2!1sen!2sus!4v1697051234567!5m2!1sen!2sus"
-                width="100%"
-                height="250"
-                style={{ border: 0 }}
-                allowFullScreen=""
-                loading="lazy"
-                referrerPolicy="no-referrer-when-downgrade"
-                title="Hotel Location Map"
-              ></iframe>
-            </div>
-          </div>
-          {/* Contact Form */}
-          <div>
-            <h3 className="mb-4 text-xl font-bold text-center">Send Us a Message</h3>
+        </div>
+        <div className="w-[90%] mx-auto">
+           <div className="flex flex-col items-center gap-40 md:flex-row w-[90%] mx-auto">
+
+             {/* Contact Form */}
+        <div className=" md:w-1/2">
+            <h3 className="mb-4 text-xl font-semibold text-center">Make a Booking</h3>
             <form onSubmit={handleSubmit} className="space-y-4">
               <div>
                 <label htmlFor="name" className="block mb-1 font-semibold text-gray-600">
@@ -182,6 +156,39 @@ function Contact() {
               </button>
             </form>
           </div>
+          {/* Contact Information */}
+          <div className=" md:w-1/2">
+           <div className="">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.019020324364!2d-122.41941568468157!3d37.77492927975975!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085808c5e9a3c7b%3A0x9b3b7e8c2d3a4c5d!2sSan%20Francisco%2C%20CA%2C%20USA!5e0!3m2!1sen!2sus!4v1697051234567!5m2!1sen!2sus"
+                width="100%"
+                height="250"
+                style={{ border: 0 }}
+                allowFullScreen=""
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+                title="Hotel Location Map"
+              ></iframe>
+            </div>
+            <h3 className="mt-10 mb-4 text-xl font-semibold text-center">Our Contact Details</h3>
+            <div className="space-y-2 text-center text-gray-600">
+              <p>
+                <span className="font-semibold">Phone:</span> +94 70 323 8582
+              </p>
+              <p>
+                <span className="font-semibold">Email:</span>{' '}
+                <a href="hotelopal@.com" className="text-blue-600 hover:underline">
+                  hotelopal@.com
+                </a>
+              </p>
+              <p>
+                <span className="font-semibold">Address:</span> 123 Serenity Lane, Colombo 00200, Sri Lanka
+              </p>
+            </div>
+           
+          </div>
+         
+        </div>
         </div>
       </div>
     </div>

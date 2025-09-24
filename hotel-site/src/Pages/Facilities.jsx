@@ -44,7 +44,7 @@ function Facilities() {
 
   return (
     <div>
-      <Navbar/>
+     
       <div className="container flex flex-col min-h-screen mx-auto">
         <h2 className="mb-4 text-3xl font-semibold text-center">Our Facilities</h2>
         <p className="max-w-2xl mx-auto mb-8 text-lg text-center text-gray-600 ">

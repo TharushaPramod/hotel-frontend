@@ -9,7 +9,7 @@ function RoomDetails() {
 
   return (
     <div>
-      <Navbar/>
+    
       <div className="min-h-screen mx-auto mt-10">
         {/* Page Title */}
         <h2 className="mb-8 text-3xl font-bold text-center">
