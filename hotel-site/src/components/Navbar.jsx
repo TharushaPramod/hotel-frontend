@@ -27,7 +27,7 @@ const Navbar = () => {
     <nav className="z-50 w-full mt-2 bg-white shadow-xl">
       <div className="px-4 mx-auto max-w-[90%] sm:px-6 lg:px-8">
         <div className="flex items-center justify-between py-4">
-          {/* Logo */}
+         
           <div
             className="text-2xl font-bold text-blue-600 cursor-pointer"
             onClick={() => navigate("/")}
@@ -35,7 +35,7 @@ const Navbar = () => {
             HotelOpal
           </div>
 
-          {/* Hamburger Menu Button (Mobile) */}
+          
           <div className="md:hidden">
             <IconButton onClick={toggleMenu} aria-label="Toggle menu">
               {isMenuOpen ? <Close fontSize="medium" /> : <Menu fontSize="medium" />}
@@ -57,7 +57,7 @@ const Navbar = () => {
                 {item.name}
               </a>
             ))}
-            {/* Book Now Button (Desktop) */}
+         
             <a
               href="/contact"
               className="px-6 py-2 text-white transition-colors duration-200 bg-blue-600 rounded-lg hover:bg-blue-700"

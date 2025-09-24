@@ -1,7 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-
-// Array of image imports (replace with your actual image paths)
 import CoverImage1 from '../images/hotelcover.jpg';
 import CoverImage2 from '../images/hotel3.jpg';
 import CoverImage3 from '../images/hotel2.jpg';
@@ -11,7 +9,7 @@ const images = [CoverImage1, CoverImage2, CoverImage3];
 function HeroBanner() {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
-  // Automatically change images every 3 seconds
+  
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentImageIndex((prevIndex) =>
@@ -38,7 +36,7 @@ function HeroBanner() {
         ))}
       </div>
 
-      {/* Overlay with centered text */}
+     
       <div className="absolute inset-0 flex items-center justify-center px-4 bg-black bg-opacity-40">
         <div className="max-w-3xl text-center text-gray-100">
           <h1 className="mb-4 text-3xl font-bold sm:text-4xl md:text-5xl">
