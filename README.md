@@ -1,40 +1,44 @@
-# 🏨 Hotel Website - Internship Assignment
+# 🏨 Hotel Opal(Hotel Website) - Internship Assignment
 
-This is a responsive and interactive **Hotel Website** built using **React.js** as part of my internship assignment.  
-The website showcases the hotel’s rooms, facilities, dining options, gallery, and contact details with a **WhatsApp booking feature**.
-
----
-
-## 🚀 Features
-
-- **Home Page** – Hero banner with hotel name, tagline, and background image  
-- **About Us** – Short introduction about the hotel  
-- **Rooms & Suites** – At least 3 room categories with images, descriptions, and sample pricing  
-- **Facilities / Services** – Showcases hotel services like pool, spa, gym, restaurant, Wi-Fi, and parking  
-- **Gallery** – 6–8 high-quality images in grid/slider layout  
-- **Contact & Booking**  
-  - Contact details (phone, email, address, map)  
-  - WhatsApp Booking – Users submit name, dates, and room type → opens WhatsApp with a pre-filled message  
+This project is a **Hotel Website** developed using **React.js** as part of my internship assignment.  
+It is fully responsive and includes basic interactivity along with a WhatsApp-based booking feature.
 
 ---
 
-## 🛠️ Tech Stack
+## 📌 Features
 
-- **React.js** – Frontend framework  
-- **CSS / Tailwind CSS (or Bootstrap)** – Styling and responsiveness  
-- **JavaScript (ES6+)** – Interactivity  
-- **WhatsApp API** – For booking messages  
-
----
-
-## 📱 Responsiveness
-
-The website is fully responsive and works smoothly across:  
-- Desktop 💻  
-- Tablet 📱  
-- Mobile 📲  
+- Home page with hero banner (hotel name, tagline, background image)
+- About Us section with a short description
+- Rooms & Suites with images, descriptions, and sample pricing
+- Facilities/Services including pool, spa, gym, Wi-Fi, parking, etc.
+- Gallery with high-quality images.
+- Contact & Booking page with phone, email, address, map, and WhatsApp booking
 
 ---
 
 ## 📂 Project Structure
+hotel-website/
+│── public/
+│── src/
+│ ├── components/
+│ ├── pages/
+│ ├── App.js
+│ └── index.js
+│── package.json
+│── README.md
+
+
+---
+
+## ▶️ Run Locally
+
+1. Clone the repo
+   ```bash
+   git clone https://github.com/<your-username>/hotel-website.git
+
+cd hotel-website
+
+npm install
+
+npm start
 
