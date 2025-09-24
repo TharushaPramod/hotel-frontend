@@ -39,4 +39,10 @@ It is fully responsive and includes basic interactivity along with a WhatsApp-ba
 
 https://drive.google.com/file/d/1AsYQO72Tf78vTHmhU4Jj-feM0chFFFjU/view?usp=drive_link
 
+## 🛠 Technologies Used
 
+React: Frontend library
+Vite: Build tool and development server
+React Router: For navigation
+Material UI : For icons
+Tailwind Css : For styling
