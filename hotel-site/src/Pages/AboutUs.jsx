@@ -4,7 +4,7 @@ import Navbar from '../components/Navbar';
 
 function AboutUs() {
   return (
-    <div className="min-h-screen bg-gray-50">
+    <div className="min-h-screen ">
    
       <div className="container px-4 py-12 mx-auto">
         <div className="flex flex-col items-center gap-8 md:flex-row">

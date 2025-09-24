@@ -46,7 +46,7 @@ function Gallery() {
   ];
 
   return (
-    <div className='mb-20 bg-gray-100'>
+    <div className='mb-20 '>
       
       <div className="container flex flex-col min-h-screen pt-10 mx-auto" >
         <h2 className="mb-4 text-3xl font-semibold text-center opacity-75">Our Gallery</h2>

@@ -53,9 +53,9 @@ function Contact() {
     <div>
       
       
-      <div className="min-h-screen mt-10 w-[100%] mx-auto">
+      <div className="min-h-screen  w-[100%] mx-auto pt-10 mb-20">
         <h2 className="text-3xl font-semibold text-center mb-7">Contact Us</h2>
-        <div className='bg-gray-100'>
+        <div className=''>
         <p className="max-w-4xl p-8 mx-auto mb-8 text-lg text-center text-gray-600 md:p-8">
           Get in touch with us to book your stay or for any inquiries. We are here to ensure your experience is exceptional.
         </p>
@@ -160,7 +160,7 @@ function Contact() {
           <div className=" md:w-1/2">
            <div className="">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63401.41587989915!2d79.92812669999999!3d6.697779199999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae2480ddb4d56a9%3A0x6066c0dd6a6de9b0!2sWadduwa%20Railway%20Station!5e0!3m2!1sen!2slk!4v1758693269966!5m2!1sen!2slk"
+                src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d1565.2583748378097!2d79.9608827909192!3d6.625436593131797!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2s!5e0!3m2!1sen!2slk!4v1758693917885!5m2!1sen!2slk"
                 width="100%"
                 height="250"
                 style={{ border: 0 }}
@@ -182,7 +182,7 @@ function Contact() {
                 </a>
               </p>
               <p>
-                <span className="font-semibold">Address:</span> 123 Serenity Lane, Colombo 00200, Sri Lanka
+                <span className="font-semibold">Address:</span> 61,1st Lane ,kalutara, Sri Lanka
               </p>
             </div>
            

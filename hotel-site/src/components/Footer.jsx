@@ -38,7 +38,7 @@ const Footer = () => {
             </div>
             <div className="flex items-center">
               <LocationOnIcon className="mr-2 text-blue-600" />
-              <p>123 Serenity Lane, Colombo 00200, Sri Lanka</p>
+              <p>61,1st Lane ,kalutara, Sri Lanka</p>
             </div>
           </div>
         </div>

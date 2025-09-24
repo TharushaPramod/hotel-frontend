@@ -45,7 +45,7 @@ function RoomDetails() {
         </div>
 
         {/* Back Button */}
-        <div className="mt-10 text-center">
+        <div className="mt-10 mb-10 text-center">
           <Link
             to="/rooms"
             className="inline-block px-6 py-2 text-white transition-colors duration-200 bg-blue-600 rounded-full hover:bg-blue-700"
