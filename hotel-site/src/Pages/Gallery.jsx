@@ -1,47 +1,55 @@
 import React from 'react';
 import Navbar from '../components/Navbar';
+import Gallery1 from '../images/Gallery/gallery1.jpg';
+import Gallery2 from '../images/Gallery/gallery2.jpg';
+import Gallery3 from '../images/Gallery/gallery3.jpg';
+import Gallery4 from '../images/Gallery/gallery4.jpg';
+import Gallery5 from '../images/Gallery/gallery5.jpg';
+import Gallery6 from '../images/Gallery/gallery6.jpg';
+import Gallery7 from '../images/Gallery/gallery7.jpg';
+import Gallery8 from '../images/Gallery/gallery8.jpg';
 
 function Gallery() {
   const images = [
     {
-      src: 'https://images.unsplash.com/photo-1560448204-e02f11c3d0e2',
+      src: Gallery1,
       alt: 'Cozy hotel lounge with modern decor',
     },
     {
-      src: 'https://images.unsplash.com/photo-1611892440504-42a792e24d32',
+      src: Gallery2,
       alt: 'Luxurious hotel bedroom with city view',
     },
     {
-      src: 'https://images.unsplash.com/photo-1578683014728-903d11dcdc91',
+     src: Gallery3,
       alt: 'Elegant hotel dining area',
     },
     {
-      src: 'https://images.unsplash.com/photo-1576675764574-870ed801f7f7',
+      src: Gallery4,
       alt: 'Outdoor pool with scenic surroundings',
     },
     {
-      src: 'https://images.unsplash.com/photo-1596436889106-be35e843f974',
+     src: Gallery5,
       alt: 'Spa room with calming ambiance',
     },
     {
-      src: 'https://images.unsplash.com/photo-1582719478250-c89cae4dc85b',
+    src: Gallery6,
       alt: 'Hotel exterior at dusk',
     },
     {
-      src: 'https://images.unsplash.com/photo-1566073771259-6a8506099945',
+      src: Gallery7,
       alt: 'Rooftop bar with city skyline',
     },
     {
-      src: 'https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9',
+      src: Gallery8,
       alt: 'Modern hotel lobby',
     },
   ];
 
   return (
-    <div>
+    <div className='mb-20 '>
       
-      <div className="flex flex-col min-h-screen w-[90%] mx-auto" >
-        <h2 className="mb-4 text-3xl font-bold text-center">Our Gallery</h2>
+      <div className="container flex flex-col min-h-screen pt-10 mx-auto" >
+        <h2 className="mb-4 text-3xl font-semibold text-center opacity-75">Our Gallery</h2>
         <p className="max-w-2xl mx-auto mb-8 text-lg text-center text-gray-600">
           Discover the elegance and comfort of our hotel through these vibrant images. From cozy rooms to stunning views, explore what makes our space truly special.
         </p>
